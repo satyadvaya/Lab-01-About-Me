@@ -52,9 +52,9 @@ function launchQuiz() {
     let response = 'Your name is ' + name;
 
     if (correctAnswers >= 1) {
-        response += ' And you know your JavaScript!';
+        response += ' and you know your JavaScript!';
     } else {
-        response += ' And you need to brush up on getting to know JavaScript';
+        response += ' and you need to brush up on getting to know JavaScript';
     }
 
     result.textContent = response;

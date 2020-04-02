@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo|Oswald');
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Oswald';
+}
+
+.profile {
+    float: left;
+    margin-right: 20px;
+    height: 200px;
+}
+
+button {
+    border: 1px solid steelblue;
+    height: 30px;
+    width: 100px;
+    font-size: 1.2em;
+}
+
+.bad {
+    color: red;
+}
+
+.good {
+    color: green;
+}

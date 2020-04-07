@@ -14,7 +14,7 @@ function launchQuiz() {
     let name = ''; // ALARM BELLS go off: this will CHANGE
 
   // show the user a message. only options is 'OK'
-    alert('hello from app.js');
+    alert('Hello there, would you like to take a quiz?');
 
   // returns: true for 'OK', and false for 'Cancel'
     const confirmed = confirm('Are you sure about that?');
@@ -40,7 +40,7 @@ function launchQuiz() {
   // name += lastName;
 
   // get the text response from the user
-    const isAwesome = prompt('Is JavaScript the most awesome language (Yes/No)?');
+    const isAwesome = prompt('Am I a deplorable creature? (Yes/No)?');
 
   // convert to boolean
   // isYes takes in a string and tells us if the string is counts as a YES
@@ -52,9 +52,9 @@ function launchQuiz() {
     let response = 'Your name is ' + name;
 
     if (correctAnswers >= 1) {
-        response += ' and you know your JavaScript!';
+        response += ' and you are absolutely correct';
     } else {
-        response += ' and you need to brush up on getting to know JavaScript';
+        response += ' and you might need to rethink your answer';
     }
 
     result.textContent = response;
